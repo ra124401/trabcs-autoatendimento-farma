@@ -4,8 +4,8 @@ from tkinter import messagebox
 
 # dados do sistema
 clientes = {
-    "1": {"nome": "João"},
-    "2": {"nome": "Maria"}
+    "11": {"nome": "João"},
+    "22": {"nome": "Maria"}
 }
 
 produtos = {
@@ -114,7 +114,7 @@ cpf_entry.pack(pady=10)
 tk.Button(frame_login, text="Entrar", font=("Arial", 12),
           command=login).pack(pady=10)
 
-tk.Label(frame_login, text="Ex.: 11111111111", font=("Arial", 10)).pack()
+tk.Label(frame_login, text="CPF: 11 (João), 22 (Maria)", font=("Arial", 10)).pack()
 
 # produtos
 frame_produtos = tk.Frame(root)
